@@ -25,7 +25,7 @@ def aggreate_col_val(dataframe,column_val: str,column_worth: str):
     mean_dict = {}   
     # Take advantage a vectorization in pandas to compute mean of our target column
     for value in total_val.index:
-         avg_price = dataframe.loc[autos[column_val]==value,column_worth].mean()#
+         avg_price = dataframe.loc[autos[column_val]==value,column_worth].mean()
          mean_dict[value]= int(avg_price)
     return mean_dict
 
