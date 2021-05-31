@@ -1,0 +1,1 @@
+{"alias": "alias dataquest=\"cd /home/pavel/Desktop/Dataquest/DataQuestProjects\""}
